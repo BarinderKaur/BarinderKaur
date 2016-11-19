@@ -1,0 +1,19 @@
+﻿body {
+    color:gainsboro;
+    text-align:center;
+    background:url("../Images/image1.jpg");
+}
+footer{
+    text-align:center;
+    color:gainsboro;
+}
+table{
+    align-items:center;
+    
+}
+ .auto-style1 {
+            width: 911px;
+        }
+        .auto-style2 {
+            width: 303px;
+        }

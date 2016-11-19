@@ -1,0 +1,38 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="mySite.master.cs" Inherits="Comp229_Assign003.pages.mySite" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Master Page</title>
+    <link rel="stylesheet" type="text/css" href="../stylesheet/StyleSheet1.css"/>
+   <link rel="stylesheet" type="text/css" href="../stylesheet/bootstrap.css"/>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+          <!--  Banner--> 
+            <asp:ImageButton ID="ImageButton1" runat="server" ImageUrl="~/Images/Image2.jpg" />
+        </div>
+        <br/>
+        <div>
+            <!--Table-->
+            <table class="auto-style1">
+                <tr>
+                    <td class="auto-style2"><a href="home.aspx" style="text-decoration: none; color: #CCCCCC">Home</a></td>
+                    <td class="auto-style2"><a href="StudentInformation.aspx" style="text-decoration: none; color: #CCCCCC">Student Information</a></td>
+                    <td class="auto-style2">Courses</td>
+                </tr>
+            </table>
+        </div>
+        <br/>
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+        <br/>
+        <footer>&copy; Barinder Kaur Comp229_Assign-003 300914765 </footer>
+    </form>
+</body>
+</html>
