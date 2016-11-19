@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Comp229_Assign003
+namespace Comp229_Assign03
 {
 
 

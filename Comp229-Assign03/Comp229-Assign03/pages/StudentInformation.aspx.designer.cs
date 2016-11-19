@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Comp229_Assign003.pages {
+namespace Comp229_Assign03.pages {
     
     
     public partial class StudentInformation {

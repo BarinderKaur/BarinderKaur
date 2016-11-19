@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/pages/mySite.Master" AutoEventWireup="true" CodeBehind="addnew.aspx.cs" Inherits="Comp229_Assign003.pages.addnew" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/pages/mySite.Master" AutoEventWireup="true" CodeBehind="addnew.aspx.cs" Inherits="Comp229_Assign03.pages.addnew" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     First Name :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>

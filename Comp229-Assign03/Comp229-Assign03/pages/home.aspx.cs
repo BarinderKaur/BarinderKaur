@@ -7,7 +7,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace Comp229_Assign003.pages
+namespace Comp229_Assign03.pages
 {
     public partial class home : System.Web.UI.Page
     {
@@ -18,9 +18,10 @@ namespace Comp229_Assign003.pages
 
         protected void bindList()
         {
+
             SqlConnection connection = new SqlConnection(ConfigurationManager.ConnectionStrings["Comp229Assign03ConnectionString"].ToString());
 
-            // SqlConnection connection = new SqlConnection("Server= localhost\\SqlExpress; Database= Comp229Assign03ConnectionStrin g;Integrated Security=True");
+            
             SqlCommand comm = new SqlCommand("SELECT * FROM Students", connection);
             try
             {

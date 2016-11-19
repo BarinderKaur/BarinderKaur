@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/pages/mySite.Master" AutoEventWireup="true" CodeBehind="StudentInformation.aspx.cs" Inherits="Comp229_Assign003.pages.StudentInformation" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/pages/mySite.Master" AutoEventWireup="true" CodeBehind="StudentInformation.aspx.cs" Inherits="Comp229_Assign03.pages.StudentInformation" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
      <asp:GridView ID="GridView1" OnRowDeleting="Delete_Row" runat="server" AutoGenerateColumns="False"  Height="156px" HorizontalAlign="Center" Width="276px" AutoGenerateSelectButton="True" CellPadding="4" ForeColor="#333333" GridLines="None">
             <AlternatingRowStyle BackColor="White" ForeColor="#284775" />
